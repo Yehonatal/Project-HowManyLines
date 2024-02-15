@@ -9,9 +9,9 @@ const Title = ({ user }) => {
                 List of the Public Projects : {user}
             </h1>
             <div>
-                <ul className="grid  grid-cols-3 gap-4 p-4">
+                <ul className="grid grid-cols-2  lg:grid-cols-3 lg:gap-4 gap-2 p-4">
                     {TitleList.map((title, index) => (
-                        <li className=" list-decimal " key={index}>
+                        <li className=" list-decimal" key={index}>
                             <h1 className="font-extrabold">{title}</h1>
                         </li>
                     ))}
